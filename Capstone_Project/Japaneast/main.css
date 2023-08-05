@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+p{
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+header{
+    padding: 10px 100px;
+}
+nav{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner{
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url('images/closeup-blue-jellyfish-water.jpg');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+.banner > .deck{
+    width: 40%;
+    position: absolute;
+    top: 40vh;
+    left: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner h1{
+    font-size: 60px;
+    line-height: 55px;
+    margin-bottom: 40px;
+}
+.banner p{
+    font-size: 15px;
+    line-height: 20px;
+}
+.banner button{
+    display: block;
+    margin-top: 25px;
+    color: black;
+    padding: 9px 20px;
+    border-radius: 20px;
+    border: 0;
+    letter-spacing: 1.5px;
+}
+.banner span{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.capt{
+    justify-content: center;
+}
+.ele{
+    justify-content: end;
+}
+.capt, .ele, .same{
+    padding: 60px 80px;
+}
+.sime{
+    padding: 20px 80px;
+    margin-bottom: 30px;
+}
+.capt, .ele, .same, .sime{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.capt h1, .ele h1, .same h1, .sime h1{
+    font-size: 43px;
+    margin-bottom: 20px;
+}
+.capt p, .ele p, .sime p{
+    font-size: 13px;
+    margin-bottom: 60px;
+}
+.same p{
+    font-size: 13px;
+}
+.capt .cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card1, .card2, .card3{
+    width: 32%;
+    box-sizing: border-box;
+    height: 75vh;
+    padding: 30px 25px;
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    align-items: end;
+    font-size: 20px;
+    line-height: 28px;
+}
+.card1{
+    background-image: url('images/vertical-closeup-shot-blue-jellyfish.jpg');
+    background-size: cover;
+}
+.card2{
+    background-image: url('images/portrait-long-tailed-macaque.jpg');
+    background-size: cover;
+}
+.card3{
+    background-image: url('images/komodo-dragon-beautiful-nature-habitat-famous-island-indonesia.jpg');
+    background-size: cover;
+}
+footer{
+    background-color: #272727;
+    padding: 38px;
+    text-align: center;
+    margin-top: 40px;
+}
+footer a{
+    color: #999999;
+}
+.ele h1, .ele p{
+    width: 50%;
+}
+.horses{
+    width: 100%;
+    height: 58vh;
+    box-sizing: border-box;
+    background: url('images/panorama-with-horses-grazing-green-meadow.jpg');
+    background-size: cover;
+}
+.ele{
+    height: 100vh;
+    background-image: url('images/elephants-drinking-water.jpg');
+    background-size: cover;
+}
+.same h1, .same p, .sime h1, .sime p{
+    width: 56%;
+}
+.float{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 60px 80px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.p1, .p2{
+    width: 48%;
+    height: 400px;
+}
+.p1{
+    background-image: url('images/download.jpg');
+    background-size: cover;
+}
+.p2{
+    background-image: url('images/download\ \(1\).jpg');
+    background-size: cover;
+}
+.foot{
+    padding: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.some{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.c1, .c2, .c3, .c4{
+    width: 23%;
+    height: 250px;
+    background-size: cover;
+}
+.c1{
+    background-image: url('images/pl.jpg');
+}
+.c2{
+    background-image: url('images/el.jpg');
+}
+.c3{
+    background-image: url('images/monk.jpg');
+}
+.c4{
+    background-image: url('images/owl.jpg');
+}
+.foot section{
+    line-height: 40px;
+}
+.foot section p{
+    font-size: 15px;
+}
