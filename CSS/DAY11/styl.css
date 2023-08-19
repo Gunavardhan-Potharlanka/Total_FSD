@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'REM', sans-serif;
+}
+.main-logo{
+    position: absolute;
+    top: 10px;
+    left: 12px;
+}
+.close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+header, .block, .opening, .wht, .cards, .park, .gfbt, .tours, .future, .contacts, footer{
+    width: 100%;
+    box-sizing: border-box;
+}
+header{
+    padding: 13px 10px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    margin: 5px;
+}
+.block{
+    padding: 27px 105px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block .logos{
+    width: 65px;
+}
+.block .menu{
+    width: 25px;
+}
+.opening{
+    height: 127vh;
+    background: url("images/man_showing_map.png");
+    background-size: 121% 100%;
+    position: relative;
+}
+.opening article{
+    width: 40%;
+    position: absolute;
+    top: 105px;
+    right: 105px;
+    text-align: end;
+}
+.opening article h1{
+    font-size: 85px;
+    color: #f29012;
+    margin-bottom: 20px;
+}
+.opening article p{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    font-family:'Open Sans', sans-serif;
+}
+button{
+    cursor: pointer;
+    width: 170px;
+    font-size: 15px;
+    height: 50px;
+    border: 0;
+    background-color: #77aaf6;
+    color: white;
+    font-weight: bold;
+    border-radius: 24px;
+}
+.wht{
+    padding: 85px 105px;
+    background-color: #77aaf6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.he, .she{
+    color: white;
+}
+.he{
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+.she{
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards h2{
+    font-weight: lighter;
+    font-size: 24px;
+    letter-spacing: 4px;
+    margin-bottom: 13px;
+}
+.cards p{
+    font-size: 17px;
+    margin-bottom: 30px;
+    width: 97%;
+    line-height: 25px;
+}
+.cards img{
+    margin: 10px 0px 20px 0px;
+}
+.cardb{
+    background-color: #b3d0fa;
+}
+.cardw{
+    background-color: white;
+}
+.cardb, .cardw{
+    width: 23%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 20px;
+}
+.park{
+    padding:105px 150px;
+}
+.kid{
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: auto auto;
+}
+.blk1, .blk2, .blk3, .blk4{
+    width: 500px;
+}
+.blk1{
+    line-height: 60px;
+}
+.blk1 a{
+    color: black;
+}
+.blk2{
+    height: 300px;
+    background: url("images/people-walking.JPG");
+    box-sizing: border-box;
+}
+.light{
+    color: gray;
+    font-size: 20px;
+}
+.blk3 p{
+    margin-bottom: 30px;
+}
+.blk3{
+    font-size: 20px;
+}
+.blk4{
+    line-height: 40px;
+}
+.blk4 ul{
+    list-style: none;
+}
+.blk4 li::before{
+    content: '✓';
+    color: black;
+    margin-right: 20px;
+}
+.ball{
+    width: 120px;
+    height: 120px;
+    background-color: #b3d0fa;
+    border-radius: 50%;
+}
+.gfbt{
+    position: relative;
+    padding: 85px 105px;
+    height: 100vh;
+    background-color: #77aaf6;
+    color: white;
+}
+.gfbt a{
+    color: white;
+}
+.gfbt img{
+    position: absolute;
+    top: 85px;
+    left: 105px;
+    width: 700px;
+    height: 500px;
+}
+.gfbt article{
+    width: 35%;
+    position: absolute;
+    top: 85px;
+    right: 105px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+}
+.gfbt article h1{
+    width: 70%;
+    margin-top: 30vh;
+}
+.tours{
+    padding: 105px 105px 60px 105px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tours section{
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.tours a{
+    color: black;
+}
+.tours img{
+    width: 50%;
+}
+.future{
+    background-color: #77aaf6;
+    padding: 85px 105px;
+}
+.future h1{
+    font-size: 50px;
+}
+.future .h{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cards1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.c1, .c2, .c3{
+    width: 30%;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 5% 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.c1{
+    gap: 150px;
+}
+.c2{
+    gap: 100px;
+}
+.c3{
+    gap: 50px;
+}
+.c1 h1{
+    color: #f29012;
+}
+.c2 h1{
+    color: #77aaf6;
+}
+.c3 h1{
+    color: #98cd72;
+}
+.contacts{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 105px 105px 85px 105px;
+}
+.con .dot{
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    background: url("images/man_standing.png") -130px -30px;
+    background-size: 250% 150%;
+    border-radius: 50%;
+}
+.contacts img{
+    width: 32px;
+    height: 32px;
+    margin-top: 3px;
+}
+.contacts section, .cont{
+    margin-top: 30px;
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}
+.submit{
+    background-color: #f29012;
+    border-radius: 0px;
+    width: 130px;
+    height: 45px;
+}
+.sign{
+    width: 80%;
+}
+.bar input{
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    width: 400px;
+    background: lightgray;
+    outline: none;
+}
+.bar{
+    display: flex;
+    height: 45px;
+}
+.sign{
+    display: flex;
+    flex-direction: column;
+}
+.cont{
+    margin-top: 180px;
+}
+footer{
+    background-color: #272727;
+    color: white;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    font-size: 14px;
+    align-items: center;
+}
+footer a{
+    color: rgb(0, 204, 255)bef;
+}

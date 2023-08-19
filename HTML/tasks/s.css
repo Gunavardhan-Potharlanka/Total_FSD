@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-bottom: 30px;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: skyblue;
+}
+nav a{
+    text-decoration: none;
+    color: green;
+    font-weight: bolder;
+    margin: 20px;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0px 0px 40px;
+    line-height: 20px;
+}
+section{
+    line-height: 40px;
+}
+article p{
+    line-height: 25px;
+    width: 50%;
+}

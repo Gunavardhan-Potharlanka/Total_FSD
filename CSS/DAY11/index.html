@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T2</title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+    <div class="contain">
+        <div class="tot">
+            <div class="image" id="home">
+                <img src="images/logo.JPG">
+            </div>
+            <h1>HTML Elements</h1>
+            <hr>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#headers">Headers</a></li>
+                <li><a href="#table">Table</a></li>
+                <li><a href="#list">List</a></li>
+                <li><a href="#textformats">Text formats</a></li>
+                <li><a href="#blockquotes">Blockquotes</a></li>
+            </ul>
+            <hr>
+            <p>Pay attention to h1 tag inside section element. Font-size for h1 is same as font-size for h2, we have to use only h1 on the page, and it is commonly used inside header.</p>
+            <section id="headers">
+                <h2>Header 2</h2>
+                <h3>Header 3</h3>
+                <h4>Header 4</h4>
+                <h5>Header 5</h5>
+                <h6>Header 6</h6>
+            </section>
+            <hr>
+            <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam nostrum ratione molestiae cumque dolorum sunt expedita velit aliquid fugit veritatis earum numquam eius itaque, voluptatum corrupti odit, perspiciatis id vero! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis odit quaerat veritatis, eligendi similique optio magnam, facere debitis architecto blanditiis alias nulla eos placeat laudantium aliquam officiis assumenda aspernatur molestiae. Suspendisee quam sem, consequat at, commodo vitae Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam animi architecto sit, corporis rerum perspiciatis repellendus, natus officiis placeat voluptatem delectus porro. Doloremque in possimus autem, molestias soluta ipsam!</p>
+            <p>HTML and CSS are our tools. Mauris a ante. Suspendisee quam sem, consequat at, commodo vitae Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque veniam animi architecto sit, corporis rerum perspiciatis repellendus, natus officiis placeat voluptatem delectus porro. Doloremque in possimus autem, molestias soluta ipsam!</p>
+            <hr>
+            <div class="block" id="table">
+                <h1 class="hrless">Table</h1>
+                <table border="1" cellspacing="0">
+                    <tr>
+                        <td>Header</td>
+                        <td>Header</td>
+                        <td>Header</td>
+                    </tr>
+                    <tr>
+                        <td>nvjdvbjv</td>
+                        <td>kwenjew</td>
+                        <td>enejve</td>
+                    </tr>
+                    <tr>
+                        <td>kwenjew</td>
+                        <td>nvjdvbjv</td>
+                        <td>enejve</td>
+                    </tr>
+                    <tr>
+                        <td>enejve</td>
+                        <td>nvjdvbjv</td>
+                        <td>kwenjew</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="block" id="list">
+                <h1 class="hrless">Unordered List</h1>
+                <ul>
+                    <li>List item 1</li>
+                    <li>list item 2</li>
+                    <ul type="disc">
+                        <li>Some nested list item 1</li>
+                    </ul>
+                    <li>List item 3</li>
+                </ul>
+            </div>
+            <div class="block">
+                <h1 class="hrless">Ordered List</h1>
+                <ol>
+                    <li>List item 1</li>
+                    <li>list item 2</li>
+                    <ol type="A">
+                        <li>Some nested list item 1</li>
+                    </ol>
+                    <li>List item 3</li>
+                </ol>
+            </div>
+            <div class="block">
+                <h1 class="hrless">Definition List</h1>
+                <dt><b>defines terms 1</b></dt>
+                <dd>decription 1</dd>
+                <dt><b>defines terms 2</b></dt>
+                <dd>decription 2</dd>
+            </div>
+            <div class="details">
+                <p>Details</p>
+                <select name="selection" id="">
+                    <option value="H">HTML</option>
+                    <option value="C">CSS</option>
+                    <option value="J">JavaScript</option>
+                </select>
+            </div>
+            <hr>
+            <h1 id="textformats" class="hrless">Text Formats</h1>
+            <article>
+                <h2>Article Text</h2>
+                <h3>Article title</h3>
+                <h4>Article description</h4>
+            </article>
+            <div class="block">
+                <h1 class="hrless">Preformatted text</h1>
+                <div class="kid">
+                    <pre>                          Text
+                in a pre element
+                    is displayed in a fixed-width
+            font, and it preserves
+            both
+                spaces and
+                    line brakes</pre>
+                </div>
+            </div>
+            <div class="block">
+                <h1 class="hrless">code</h1>
+                <div class="kid">
+        <pre>
+            .wrapper {
+            display: flex;
+            vertical align: middle;
+            justify content: center;
+            }
+        </pre>
+                </div>
+            </div>
+            <div class="block" id="blockquotes">
+                <h1 class="hrless">Blockquotes</h1>
+                <p>Let's keep it simple. Italies are good to help set it off from the body text. Be sure to style the citation.</p>
+                <blockquote>
+                    <cite>"If you go back a hundred years ago, what we take for granted today would seem like magic-being able to talk to people over long distances, to transmit images,  flying, accessing vast amounts of data like an oracle. These are all things that would have been considered magic a few hundred years ago."</cite>
+                    <br><a href="#">Elon Musk</a>
+                </blockquote>
+            </div>
+            <hr>
+            <form action=""></form>
+                <div class="detail">
+                    <section>
+                        <label for="name">First name:</label>
+                        <input type="text">
+                    </section>
+                    <section>
+                        <label for="lname">Surname:</label>
+                        <input type="text">
+                    </section>
+                    <section>
+                        <label for="email">Email: </label>
+                        <input type="email">
+                    </section>
+                    
+                    <textarea name="" id="" cols="20" rows="10"></textarea>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+            <footer>
+                <p>Copyright Epam Systems</p>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

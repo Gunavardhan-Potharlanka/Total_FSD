@@ -1,0 +1,45 @@
+
+.one, .two{
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+}
+.one{
+    background-color: red;
+    margin-bottom: 69px;
+}
+.two{
+    background-color: gainsboro;
+    box-sizing: border-box;
+}
+p{
+    color: purple;
+    text-align: justify;
+    text-transform: uppercase;
+    margin-top: 6.9px;
+    text-shadow: 4px 4px lawngreen;
+}
+.sa{
+    text-transform: capitalize;
+    text-shadow: -10px -10px 2px green;
+}
+.a{
+    color: red;
+    display: block;
+}
+.b{
+    color: blue;
+    display: inline;
+}
+.c{
+    color: blueviolet;
+    display: inline;
+    visibility: hidden;
+}
+.d{
+    color: yellowgreen;
+    display: inline;
+}
+i{
+    font-size: 169px;
+}

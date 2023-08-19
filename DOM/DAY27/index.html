@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    <button id="red" onclick="change('red')">Red</button>
+    <button id="green" onclick="change('green')">Green</button>
+    <script>
+        let b = document.getElementsByTagName('button');
+        for(let i=0;i<b.length;i++){
+            b[i].style.padding = '10px 20px';
+            b[i].style.borderRadius = '8px';
+            b[i].style.border = '.5px solid lightgray';
+        }
+        function change(clr){
+            document.body.style.background = clr;
+        }
+
+    </script>
+</body>
+</html>

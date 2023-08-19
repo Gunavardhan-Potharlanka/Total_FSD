@@ -1,0 +1,58 @@
+.parent{
+    width: 1000px;
+    height: 500px;
+    background-color: yellow;
+    border: 10px dotted red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 0px 50px;
+}
+.child{
+    padding: 0px 30px;
+    box-sizing: border-box;
+    background-color: purple;
+    width: 998px;
+    height: 498px;
+}
+.child p{
+    color: aliceblue;
+    width: 69%;
+    text-align: justify;
+}
+.padd{
+    margin-top: 69px;
+    padding: 69px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: purple;
+    color: aliceblue;
+    border-radius: 6.9px;
+}
+.seagreen{
+    width: 350px;
+    height: 300px;
+    box-sizing: border-box;
+    padding: 50px;
+    color: white; 
+    float: right;
+    background-color: seagreen;
+    border-radius: 10px;
+}
+.seagreen p{
+    text-align: justify;
+}
+body{
+    background-color: lightblue;
+}
+.task{
+    width: 400px;
+    height: 300px;
+    border: 40px solid red;
+    padding: 40px;
+    margin: 40px;
+    background-color: lightpink;
+}
+.task p{
+    background-color: aqua;
+}

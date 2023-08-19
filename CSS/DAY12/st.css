@@ -1,0 +1,40 @@
+.stand{
+    width: 100%;
+    height: 100vh;
+    border-style: double;
+    background-image: url("images/man_standing.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#show{
+    width: 25%;
+    height: 50vh;
+    background-image: url('images/man_showing_map.png');
+    background-size: cover;
+    border-style: inset;
+    background-repeat: no-repeat;
+}
+.try{
+    width: 200px;
+    height: 200px;
+    border-width: 5px;
+    border-color: red green blue yellow;
+    border-radius: 50%;
+}
+article{
+    border-width: 5px;
+    border-color: red green blue yellow;
+    border-top-style: dotted;
+    border-left-style: groove;
+    border-bottom-style: double;
+    border-right-style: ridge;
+    padding: 5%;
+    border-radius: 150px;
+}
+.bimg{
+    border: 10px solid transparent;
+    text-align: center;
+    border-image: url("images/download\ \(1\).png") 20 round;
+    padding: 50px;
+    padding: 50px;
+}
